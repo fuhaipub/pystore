@@ -1,4 +1,4 @@
 # pystore
 My python store
 
-Test commit into github by PyCharm
+This is a python lib store.
