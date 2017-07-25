@@ -53,11 +53,11 @@
         <entry file="file://$PROJECT_DIR$/createReportData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6803456">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
-                <marker date="1500986992000" expanded="true" signature="189:335" placeholder="insert into t_inoutdetails... " />
-                <marker date="1500986992000" expanded="true" signature="736:771" placeholder="DROP TABLE i... " />
-                <marker date="1500986992000" expanded="true" signature="1039:1372" placeholder="CREATE TABLE... t_inoutdetails" />
+                <marker date="1500987032000" expanded="true" signature="189:335" placeholder="insert into t_inoutdetails... " />
+                <marker date="1500987032000" expanded="true" signature="719:754" placeholder="DROP TABLE i... " />
+                <marker date="1500987032000" expanded="true" signature="1022:1355" placeholder="CREATE TABLE... t_inoutdetails" />
               </folding>
             </state>
           </provider>
@@ -579,7 +579,13 @@
       <option name="project" value="LOCAL" />
       <updated>1500986950818</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="using pycharm commit and push into github.">
+      <created>1500986997341</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1500986997341</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -927,11 +933,11 @@
     <entry file="file://$PROJECT_DIR$/createReportData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6803456">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
-            <marker date="1500986992000" expanded="true" signature="189:335" placeholder="insert into t_inoutdetails... " />
-            <marker date="1500986992000" expanded="true" signature="736:771" placeholder="DROP TABLE i... " />
-            <marker date="1500986992000" expanded="true" signature="1039:1372" placeholder="CREATE TABLE... t_inoutdetails" />
+            <marker date="1500987032000" expanded="true" signature="189:335" placeholder="insert into t_inoutdetails... " />
+            <marker date="1500987032000" expanded="true" signature="719:754" placeholder="DROP TABLE i... " />
+            <marker date="1500987032000" expanded="true" signature="1022:1355" placeholder="CREATE TABLE... t_inoutdetails" />
           </folding>
         </state>
       </provider>
