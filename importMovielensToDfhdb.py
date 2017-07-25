@@ -31,7 +31,7 @@ def importDataToDB(DB):
 
 
 # 打开数据库连接
-db = pymysql.connect("localhost","dfh","dfh123","DFHDB" )
+db = pymysql.connect("localhost","dfh","dfh123","DFHDB",charset='utf-8' )
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()

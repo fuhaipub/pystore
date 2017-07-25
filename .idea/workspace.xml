@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e960de9-670d-49df-83ea-96f7e877c3e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createReportData.py" afterPath="$PROJECT_DIR$/createReportData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/importMovielensToDfhdb.py" afterPath="$PROJECT_DIR$/importMovielensToDfhdb.py" />
     </list>
     <ignored path="pystore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,31 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="importMovielensToDfhdb.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="importMovielensToDfhdb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/importMovielensToDfhdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.2647059">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
-                <marker date="1499176377000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
-                <marker date="1499176377000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
-                <marker date="1499176377000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
-                <marker date="1499176377000" expanded="true" signature="1341:1367" placeholder="DROP TABLE i... " />
-                <marker date="1499176377000" expanded="true" signature="1435:1462" placeholder="DROP TABLE i... " />
-                <marker date="1499176377000" expanded="true" signature="1511:1539" placeholder="DROP TABLE i... " />
-                <marker date="1499176377000" expanded="true" signature="1621:1871" placeholder="CREATE TABLE... USERS" />
-                <marker date="1499176377000" expanded="true" signature="1895:2079" placeholder="CREATE TABLE... MOVIES" />
-                <marker date="1499176377000" expanded="true" signature="2104:2270" placeholder="CREATE TABLE... RATINGS" />
+                <marker date="1500988085000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
+                <marker date="1500988085000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
+                <marker date="1500988085000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
+                <marker date="1500988085000" expanded="true" signature="1357:1383" placeholder="DROP TABLE i... " />
+                <marker date="1500988085000" expanded="true" signature="1451:1478" placeholder="DROP TABLE i... " />
+                <marker date="1500988085000" expanded="true" signature="1527:1555" placeholder="DROP TABLE i... " />
+                <marker date="1500988085000" expanded="true" signature="1637:1887" placeholder="CREATE TABLE... USERS" />
+                <marker date="1500988085000" expanded="true" signature="1911:2095" placeholder="CREATE TABLE... MOVIES" />
+                <marker date="1500988085000" expanded="true" signature="2120:2286" placeholder="CREATE TABLE... RATINGS" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createReportData.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createReportData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createReportData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2647059">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <marker date="1500987432000" expanded="true" signature="189:335" placeholder="insert into t_inoutdetails... " />
                 <marker date="1500987432000" expanded="true" signature="736:771" placeholder="DROP TABLE i... " />
@@ -96,6 +96,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="fuhaipub" />
+      </list>
+    </option>
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -107,6 +112,7 @@
         <option value="$PROJECT_DIR$/ml-1m/users.dat" />
         <option value="$PROJECT_DIR$/ml-1m/inout.dat" />
         <option value="$PROJECT_DIR$/createReportData.py" />
+        <option value="$PROJECT_DIR$/importMovielensToDfhdb.py" />
       </list>
     </option>
   </component>
@@ -591,7 +597,13 @@
       <option name="project" value="LOCAL" />
       <updated>1500987038531</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="using pycharm commit and push into github.">
+      <created>1500987885207</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1500987885207</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,15 +657,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1499176377000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
-            <marker date="1499176377000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
-            <marker date="1499176377000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
-            <marker date="1499176377000" expanded="true" signature="1341:1367" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1435:1462" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1511:1539" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1621:1871" placeholder="CREATE TABLE... USERS" />
-            <marker date="1499176377000" expanded="true" signature="1895:2079" placeholder="CREATE TABLE... MOVIES" />
-            <marker date="1499176377000" expanded="true" signature="2104:2270" placeholder="CREATE TABLE... RATINGS" />
+            <marker date="1500988085000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
+            <marker date="1500988085000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
+            <marker date="1500988085000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
+            <marker date="1500988085000" expanded="true" signature="1357:1383" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1451:1478" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1527:1555" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1637:1887" placeholder="CREATE TABLE... USERS" />
+            <marker date="1500988085000" expanded="true" signature="1911:2095" placeholder="CREATE TABLE... MOVIES" />
+            <marker date="1500988085000" expanded="true" signature="2120:2286" placeholder="CREATE TABLE... RATINGS" />
           </folding>
         </state>
       </provider>
@@ -718,15 +730,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1499176377000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
-            <marker date="1499176377000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
-            <marker date="1499176377000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
-            <marker date="1499176377000" expanded="true" signature="1341:1367" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1435:1462" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1511:1539" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1621:1871" placeholder="CREATE TABLE... USERS" />
-            <marker date="1499176377000" expanded="true" signature="1895:2079" placeholder="CREATE TABLE... MOVIES" />
-            <marker date="1499176377000" expanded="true" signature="2104:2270" placeholder="CREATE TABLE... RATINGS" />
+            <marker date="1500988085000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
+            <marker date="1500988085000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
+            <marker date="1500988085000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
+            <marker date="1500988085000" expanded="true" signature="1357:1383" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1451:1478" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1527:1555" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1637:1887" placeholder="CREATE TABLE... USERS" />
+            <marker date="1500988085000" expanded="true" signature="1911:2095" placeholder="CREATE TABLE... MOVIES" />
+            <marker date="1500988085000" expanded="true" signature="2120:2286" placeholder="CREATE TABLE... RATINGS" />
           </folding>
         </state>
       </provider>
@@ -791,15 +803,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1499176377000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
-            <marker date="1499176377000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
-            <marker date="1499176377000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
-            <marker date="1499176377000" expanded="true" signature="1341:1367" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1435:1462" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1511:1539" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1621:1871" placeholder="CREATE TABLE... USERS" />
-            <marker date="1499176377000" expanded="true" signature="1895:2079" placeholder="CREATE TABLE... MOVIES" />
-            <marker date="1499176377000" expanded="true" signature="2104:2270" placeholder="CREATE TABLE... RATINGS" />
+            <marker date="1500988085000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
+            <marker date="1500988085000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
+            <marker date="1500988085000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
+            <marker date="1500988085000" expanded="true" signature="1357:1383" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1451:1478" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1527:1555" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1637:1887" placeholder="CREATE TABLE... USERS" />
+            <marker date="1500988085000" expanded="true" signature="1911:2095" placeholder="CREATE TABLE... MOVIES" />
+            <marker date="1500988085000" expanded="true" signature="2120:2286" placeholder="CREATE TABLE... RATINGS" />
           </folding>
         </state>
       </provider>
@@ -918,32 +930,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/importMovielensToDfhdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <marker date="1499176377000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
-            <marker date="1499176377000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
-            <marker date="1499176377000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
-            <marker date="1499176377000" expanded="true" signature="1341:1367" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1435:1462" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1511:1539" placeholder="DROP TABLE i... " />
-            <marker date="1499176377000" expanded="true" signature="1621:1871" placeholder="CREATE TABLE... USERS" />
-            <marker date="1499176377000" expanded="true" signature="1895:2079" placeholder="CREATE TABLE... MOVIES" />
-            <marker date="1499176377000" expanded="true" signature="2104:2270" placeholder="CREATE TABLE... RATINGS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createReportData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2647059">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <marker date="1500987432000" expanded="true" signature="189:335" placeholder="insert into t_inoutdetails... " />
             <marker date="1500987432000" expanded="true" signature="736:771" placeholder="DROP TABLE i... " />
             <marker date="1500987432000" expanded="true" signature="1039:1372" placeholder="CREATE TABLE... t_inoutdetails" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importMovielensToDfhdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2647059">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <marker date="1500988085000" expanded="true" signature="189:277" placeholder="insert into USERS... " />
+            <marker date="1500988085000" expanded="true" signature="543:608" placeholder="insert into MOVIES... " />
+            <marker date="1500988085000" expanded="true" signature="875:955" placeholder="insert into RATINGS... " />
+            <marker date="1500988085000" expanded="true" signature="1357:1383" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1451:1478" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1527:1555" placeholder="DROP TABLE i... " />
+            <marker date="1500988085000" expanded="true" signature="1637:1887" placeholder="CREATE TABLE... USERS" />
+            <marker date="1500988085000" expanded="true" signature="1911:2095" placeholder="CREATE TABLE... MOVIES" />
+            <marker date="1500988085000" expanded="true" signature="2120:2286" placeholder="CREATE TABLE... RATINGS" />
           </folding>
         </state>
       </provider>
