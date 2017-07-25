@@ -239,7 +239,7 @@ and paytype='FY'
 <RowHeight defaultValue="723900">
 <![CDATA[864523,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,831272,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[2427316,3990109,4488872,3757352,2743200,3192087,3724101,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<![CDATA[2427316,3990109,4488872,5685905,2743200,5685905,5685905,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="11" s="0">
 <O>
@@ -259,6 +259,10 @@ and paytype='FY'
 <C c="2" r="1" cs="2" s="2">
 <O>
 <![CDATA[PHW部门]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="1" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -299,6 +303,10 @@ and paytype='FY'
 <C c="3" r="2" s="2">
 <O>
 <![CDATA[USD]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -373,6 +381,10 @@ and paytype='FY'
 <![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -544,13 +556,50 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="5" r="5" s="1">
+<C c="4" r="5" s="1">
+<O t="DSColumn">
+<Attributes dsName="收汇K" columnName="bank"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
 <PrivilegeControl/>
-<Expand/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
+</C>
+<C c="5" r="5" s="1">
+<O t="DSColumn">
+<Attributes dsName="收汇K" columnName="rmb"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="6" r="5" s="1">
+<O t="DSColumn">
+<Attributes dsName="收汇K" columnName="usd"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
 <PrivilegeControl/>
-<Expand/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="7" r="5" s="1">
 <PrivilegeControl/>
@@ -601,42 +650,24 @@ and paytype='FY'
 <Expand/>
 </C>
 <C c="4" r="6" s="4">
-<O t="DSColumn">
-<Attributes dsName="收汇K" columnName="bank"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Result>
-<![CDATA[$$$]]></Result>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
 <C c="5" r="6" s="4">
-<O t="DSColumn">
-<Attributes dsName="收汇K" columnName="rmb"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SUM(F6)]]></Attributes>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand/>
 </C>
 <C c="6" r="6" s="4">
-<O t="DSColumn">
-<Attributes dsName="收汇K" columnName="usd"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SUM(G6)]]></Attributes>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand/>
 </C>
 <C c="7" r="6" s="4">
 <PrivilegeControl/>
@@ -742,41 +773,50 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="4" r="8">
+<C c="4" r="8" s="1">
 <O t="DSColumn">
 <Attributes dsName="货款K" columnName="trader"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
 <Attr divideMode="1"/>
 </RG>
+<Result>
+<![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="5" r="8" s="1">
 <O t="DSColumn">
 <Attributes dsName="货款K" columnName="rmb"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
 <Attr divideMode="1"/>
 </RG>
+<Result>
+<![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="6" r="8" s="1">
 <O t="DSColumn">
 <Attributes dsName="货款K" columnName="usd"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
 <Attr divideMode="1"/>
 </RG>
+<Result>
+<![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand/>
+<Expand leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="7" r="8" s="1">
 <PrivilegeControl/>
@@ -816,11 +856,23 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand/>
 </C>
+<C c="4" r="9" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
 <C c="5" r="9" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SUM(F9)]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
 <C c="6" r="9" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SUM(G9)]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -928,41 +980,50 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="4" r="11">
+<C c="4" r="11" s="1">
 <O t="DSColumn">
 <Attributes dsName="费用K" columnName="trader"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
 <Attr divideMode="1"/>
 </RG>
+<Result>
+<![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="5" r="11" s="1">
 <O t="DSColumn">
 <Attributes dsName="费用K" columnName="rmb"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
 <Attr divideMode="1"/>
 </RG>
+<Result>
+<![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="6" r="11" s="1">
 <O t="DSColumn">
 <Attributes dsName="费用K" columnName="usd"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
 <Attr divideMode="1"/>
 </RG>
+<Result>
+<![CDATA[$$$]]></Result>
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand dir="0"/>
+<Expand dir="0" leftParentDefault="false" upParentDefault="false"/>
 </C>
 <C c="7" r="11" s="1">
 <PrivilegeControl/>
@@ -1002,11 +1063,23 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand/>
 </C>
+<C c="4" r="12" s="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
 <C c="5" r="12" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SUM(F12)]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
 <C c="6" r="12" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=SUM(G12)]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -1048,11 +1121,23 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand/>
 </C>
+<C c="4" r="13" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
 <C c="5" r="13" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=F4 + F7 - F10 - F13]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
 <C c="6" r="13" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=G4 + G7 - G10 - G13]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -1085,6 +1170,10 @@ and paytype='FY'
 <Expand/>
 </C>
 <C c="3" r="14" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -1156,6 +1245,10 @@ and paytype='FY'
 <PrivilegeControl/>
 <Expand/>
 </C>
+<C c="4" r="16" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
 <C c="5" r="16" s="1">
 <PrivilegeControl/>
 <Expand/>
@@ -1191,6 +1284,10 @@ and paytype='FY'
 <Expand/>
 </C>
 <C c="3" r="17" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="17" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -1233,6 +1330,10 @@ and paytype='FY'
 <Expand/>
 </C>
 <C c="3" r="18" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="18" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -1305,6 +1406,10 @@ and paytype='FY'
 </O>
 <PrivilegeControl/>
 <Expand dir="0"/>
+</C>
+<C c="4" r="20" s="1">
+<PrivilegeControl/>
+<Expand/>
 </C>
 <C c="5" r="20" s="1">
 <O t="DSColumn">
