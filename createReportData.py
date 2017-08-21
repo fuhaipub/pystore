@@ -2,16 +2,17 @@
 
 import pymysql
 
-
 def importDataToDB(DB):
 
     cur = DB.cursor()
 
     try:
-        with open("./ml-1m/inout.dat") as data:
+        #with open("./ml-1m/inout.dat") as data:
+        with open("/Users/dingfuhai/Documents/finereport/dou.csv") as data:
+            #print data.readlines()
             map (cur.execute,
                 ["insert into t_inoutdetails(paydate,trader,department,company,bank,paytype,currency,amount,exrate) VALUES('%s','%s','%s','%s','%s','%s','%s',%s,%s);"
-                 % tuple(line.strip().replace('\'','\\\'').split(',')) for line in data.readlines()  if line.strip() != ""]
+                 % tuple(line.decode("gb2312").strip().replace('\'','\\\'').split(',')) for line in data.readlines()  if line.strip() != ""]
                )
             DB.commit()
     except Exception as e:
@@ -19,7 +20,7 @@ def importDataToDB(DB):
 
 
 # 打开数据库连接
-db = pymysql.connect("localhost","dfh","dfh123","DFHDB" ,charset='utf-8')
+db = pymysql.connect("localhost","dfh","dfh123","DFHDB", charset="utf8")
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
@@ -50,7 +51,7 @@ sql_tb_t_inoutdetails = '''  CREATE TABLE  t_inoutdetails
     bank   VARCHAR(256) NOT NULL,
     paytype  VARCHAR(10) NOT NULL,
     currency  VARCHAR(10) NOT NULL,
-    amount  DECIMAL(11,4) NOT NULL,
+    amount  DECIMAL(11,2) NOT NULL,
     exrate  DECIMAL(6,4) NOT NULL
 );'''
 
